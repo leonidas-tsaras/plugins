@@ -1,0 +1,19 @@
+/* Ensure product grid items are positioned */
+.woocommerce ul.products li.product {
+    position: relative;
+    display: block;
+}
+
+/* Badge: top-right corner */
+.wc-global-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 140px;
+    height: auto;
+    z-index: 100;
+    pointer-events: none;
+    /*border-radius: 50%;*/
+    object-fit: contain;
+    background: #fff;
+}
